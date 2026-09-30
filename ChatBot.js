@@ -21,8 +21,6 @@ const Chatbot = {
     'Apa yang kamu tahu tentang Rafi ?': `Rafi itu orangnya baik, rajin, dan ganteng bangetttt, heheheheh`,
     'Apakah rafi sayang sama aku ?': `Tentu saja sayang bangetttt sama kamuuuuu, heheheheh`,
 
-
-
     'flip a coin': function () {
       const randomNumber = Math.random();
       if (randomNumber < 0.5) {
