@@ -15,7 +15,6 @@ const Chatbot = {
     'apa itu javascript': `JavaScript adalah bahasa pemrograman yang banyak digunakan untuk membuat website menjadi interaktif.`,
     'apa itu react': `React adalah library JavaScript yang digunakan untuk membangun antarmuka pengguna.`,
     'terima kasih': `Yoiiii Sama-sama kawan! 😁`,
-
     'Aku misbah pacarnya rafi': `halooo princessnya rafiiii gimana kabarnyaaa 😁, ang ang ang ❤️❤️❤️`,
     'Kabar aku baik kamu gimana kabarnya  ?': `Kalo rafi baik aku pun pasti baik jugaa 😊😊😊`,
     'Apa yang kamu tahu tentang Rafi ?': `Rafi itu orangnya baik, rajin, dan ganteng bangetttt, heheheheh`,
