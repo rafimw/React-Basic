@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Asisten Pribadinya Rafi</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       body {
         font-family: Arial;
@@ -26,18 +25,16 @@
         border-radius: 10px;
         border-width: 1px;
         font-size: 15px;
+
         flex-grow: 1;
       }
 
       .chat-input-container {
         display: flex;
-        width: 100%;
-        margin-bottom: 20px;
-        box-sizing: border-box;
+        margin-bottom: 60px;
       }
 
       .app-container {
-        width: 100%;
         max-width: 600px;
         margin-left: auto;
         margin-right: auto;
@@ -45,9 +42,6 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-
-        box-sizing: border-box;
-        padding: 0 15px;
       }
 
       .chat-message-user {
@@ -131,7 +125,7 @@
           <div className="chat-input-container">
             <input
               placeholder="Send a message to Chatbot"
-              //size="30"
+              size="30"
               onChange={saveInputText}
               value={inputText}
               className="chat-input"

@@ -1,12 +1,8 @@
-// This is a simple chatbot used for SuperSimpleDev
-// coding tutorials: https://youtube.com/@SuperSimpleDev
-
 const Chatbot = {
   defaultResponses: {
     'hello hi': `Hello! How can I help you?`,
     'how are you': `I'm doing great! How can I help you?`,
-    'halo': `Halo kawannnkuuuuhhh, ! 👋`,
-    'woi p kawannnnnn': `Sopanlah ko sikit bujang !!!`,
+    'halo': `Halo kawannnkuuuuhhh, 👋`,
     'hai': `Hai kawan kekmanaaaa rupanya ?`,
     'apa kabar': `Baik aja kawannnkuhhhh, basa basi kali bahhhhh`,
     'siapa kamu': `Aku ini Asisten pribadi nya Rafi hehehehheehhe`,
@@ -18,7 +14,7 @@ const Chatbot = {
     'Aku misbah pacarnya rafi': `halooo princessnya rafiiii gimana kabarnyaaa 😁, ang ang ang ❤️❤️❤️`,
     'Kabar aku baik kamu gimana kabarnya  ?': `Kalo rafi baik aku pun pasti baik jugaa 😊😊😊`,
     'Apa yang kamu tahu tentang Rafi ?': `Rafi itu orangnya baik, rajin, dan ganteng bangetttt, heheheheh`,
-    'Apakah rafi sayang sama aku ?': `Tentu saja sayang bangetttt sama kamuuuuu, heheheheh`,
+    'Apakah rafi sayang sama aku ?': `iyaaaa dongggg, rafi sayang banget sama kamu princessnya rafiiii ❤️❤️❤️`,
 
     'flip a coin': function () {
       const randomNumber = Math.random();
