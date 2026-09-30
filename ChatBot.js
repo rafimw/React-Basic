@@ -47,9 +47,7 @@ const Chatbot = {
   },
 
   additionalResponses: {},
-
   unsuccessfulResponse: `Sori kawannnnn gak ngerti aku maksudmuuu, tanya lah yang bettolll`,
-
   emptyMessageResponse: `Nanyak apanyah kau bujannngggg ???`,
 
   addResponses: function (additionalResponses) {
