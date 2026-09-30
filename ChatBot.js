@@ -1,20 +1,19 @@
 const Chatbot = {
   defaultResponses: {
-    'hello hi': `Hello! How can I help you?`,
-    'how are you': `I'm doing great! How can I help you?`,
+
     'halo': `Halo kawannnkuuuuhhh, 👋`,
     'hai': `Hai kawan kekmanaaaa rupanya ?`,
     'apa kabar': `Baik aja kawannnkuhhhh, basa basi kali bahhhhh`,
     'siapa kamu': `Aku ini Asisten pribadi nya Rafi hehehehheehhe`,
-    'siapa pembuatmu': `Aku dibuat oleh Rafi menggunakan JavaScript dan React.`,
-    'kamu lagi apa': `Aku sedang menemani Rafi belajar membuat chatbot.`,
-    'apa itu javascript': `JavaScript adalah bahasa pemrograman yang banyak digunakan untuk membuat website menjadi interaktif.`,
-    'apa itu react': `React adalah library JavaScript yang digunakan untuk membangun antarmuka pengguna.`,
     'terima kasih': `Yoiiii Sama-sama kawan! 😁`,
-    'Aku misbah pacarnya rafi': `halooo princessnya rafiiii gimana kabarnyaaa 😁, ang ang ang ❤️❤️❤️`,
-    'Kabar aku baik kamu gimana kabarnya  ?': `Kalo rafi baik aku pun pasti baik jugaa 😊😊😊`,
-    'Apa yang kamu tahu tentang Rafi ?': `Rafi itu orangnya baik, rajin, dan ganteng bangetttt, heheheheh`,
-    'Apakah rafi sayang sama aku ?': `iyaaaa dongggg, rafi sayang banget sama kamu princessnya rafiiii ❤️❤️❤️`,
+    'aku misbah': `halooo princessnya rafiiii gimana kabarnyaaa 😁, ang ang ang ❤️❤️❤️`,
+    'kabar aku baik kamu gimana kabarnya  ?': `Kalo rafi baik aku pun pasti baik jugaa 😊😊😊`,
+    'apa yang kamu tahu tentang Rafi ?': `rafi itu orangnya baik, rajin, dan ganteng bangetttt, heheheheh`,
+    'apakah rafi sayang sama aku ?': `iyaaaa dongggg, rafi sayang banget sama kamu princessnya rafiiii ❤️❤️❤️`,
+    'tanggal berapa jadian aku misbah sama rafi ?': `tanggal 21 februari tahun 2024 kannnn 😁`,
+    'apa yang rafi suka ?': `rafi suka banget sama kamu, princessnya rafiiii 😁❤️❤️❤️`,
+    'apa yang kamu tau tentang aku misbah ?': `kata rafi, kamu itu orangnya baik, cantik, dan manis bangetttt, heheheheh 😁❤️❤️❤️`,
+    'coba ngomong bahasa sape atau ntb': `rafi meci nggomi 😆 sama paretteeee urraaaa temaannnnnnn 😆😁`,
 
     'flip a coin': function () {
       const randomNumber = Math.random();
