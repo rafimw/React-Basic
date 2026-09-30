@@ -82,6 +82,23 @@
         scrollbar-width: none;
 
       }
+
+      @media (max-width: 600px) {
+        .app-container {
+          height: 100dvh;
+          overflow: hidden;
+        }
+        .chat-messages-container {
+          min-height: 0;
+          overflow-y: auto;
+          margin-bottom: 10px;
+        }
+        .chat-input-container {
+          flex-shrink: 0;
+          margin-bottom: 10px;
+        }
+
+      }
     </style>
   </head>
   <body>
